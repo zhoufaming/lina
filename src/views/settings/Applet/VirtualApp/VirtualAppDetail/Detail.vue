@@ -24,8 +24,7 @@ export default {
   data() {
     return {
       url: `/api/v1/terminal/virtual-apps/${this.object.id}`,
-      detailFields: ['name', 'image_name', 'image_protocol', 'image_port',
-        'version', 'protocols', 'is_active', 'comment']
+      detailFields: ['name', 'image_name', 'version', 'protocols', 'is_active', 'comment']
     }
   },
   mounted() {
